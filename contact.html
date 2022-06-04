@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)http://localhost/contact -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="I5Yiwfup0PkfZY6cMvZNUftSER3jY6655O3JnbEg">
+
+        <title>Laravel</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com/"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""> 
+        <link href="./macropru_files/css2" rel="stylesheet">
+
+        <!-- Styles -->
+                <link rel="stylesheet" href="./macropru_files/app.css">
+        
+
+        <!-- Scripts -->
+        <script src="./macropru_files/app.js" defer=""></script>
+    </head>
+    <body class="font-sans antialiased">
+        <div class="min-h-screen bg-home-white ">
+            <nav x-data="{ open: false }" class="">
+    <!-- Primary Navigation Menu -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between sm:justify-around h-16 sm:h-32">
+            <div class="hidden sm:flex"></div>
+            <div class="hidden sm:flex"></div>
+            <div class="hidden sm:flex">
+                <div class="hidden space-x-1 sm:-my-px sm:flex uppercase">
+                    <div class="flex items-center">
+                        <a class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-lg font-marcellus font-normal leading-5 text-nav-link-dark hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out " href="/project.html">
+                            About project
+                        </a>
+                    </div>
+
+                    <!--<a class="inline-flex items-center px-1 pt-1 border-b-2 border-indigo-400 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out" href="http://localhost/contact">
+    Contact
+</a>
+-->
+                </div>
+            </div>
+            <div class="hidden sm:flex">
+                <div class="hidden space-x-1 sm:-my-px sm:flex uppercase">
+                    <div class="flex items-center">
+                        <a class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-lg font-marcellus font-normal leading-5 text-nav-link-dark hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out " href="http://localhost/blog">
+                            Blog
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+                <!-- Logo -->
+                <div class="shrink-0 flex items-center mx-2">
+                    <a href="/">
+                        <img src="./macropru_files/logo.png" class="h-12 sm:h-full">
+                    </a>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="hidden space-x-8 sm:-my-px sm:flex uppercase">
+                    <div class="flex items-center">
+                        <a class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-lg font-marcellus font-normal leading-5 text-nav-link-dark hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out " href="http://localhost/about">
+                            About me
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="hidden space-x-8 sm:-my-px sm:flex uppercase">
+                    <div class="flex items-center">
+                        <a class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-lg font-marcellus font-normal leading-5 text-nav-link-dark hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out border-gray-500 hover:border-gray-700" href="/contact.html">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex"></div>
+            <div class="flex"></div>
+            <!-- Hamburger -->
+            <div class="-mr-2 flex items-center sm:hidden">
+                <button @click="open = ! open" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                    <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                        <path :class="{&#39;hidden&#39;: open, &#39;inline-flex&#39;: ! open }" class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        <path :class="{&#39;hidden&#39;: ! open, &#39;inline-flex&#39;: open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Responsive Navigation Menu -->
+    <div :class="{&#39;block&#39;: open, &#39;hidden&#39;: ! open}" class="hidden sm:hidden">
+        <div class="pt-2 pb-3 space-y-1">
+            <a class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 uppercase font-marcellus hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:border-gray-300 transition duration-150 ease-in-out " href="/project.html">
+                About project
+            </a>
+        </div>
+        <div class="pt-2 pb-3 space-y-1">
+            <a class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 uppercase font-marcellus hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:border-gray-300 transition duration-150 ease-in-out " href="http://localhost/blog">
+                Blog
+            </a>
+        </div>
+        <div class="pt-2 pb-3 space-y-1">
+            <a class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 uppercase font-marcellus hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:border-gray-300 transition duration-150 ease-in-out " href="http://localhost/about">
+                About me
+            </a>
+        </div>
+        <div class="pt-2 pb-3 space-y-1">
+            <a class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 uppercase font-marcellus hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:border-gray-300 transition duration-150 ease-in-out bg-gray-100 border-gray-500 hover:bg-gray-200 hover:border-gray-600" href="/contact.html">
+                Contact
+            </a>
+        </div>
+        <hr class="drop-shadow">
+    </div>
+</nav>
+
+            <!-- Page Heading -->
+            <!--<header class="">
+                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                    Header
+                </div>
+            </header>-->
+
+            <!-- Page Content -->
+            <main>
+                    <div class="relative flex items-top justify-center sm:items-center py-4 sm:pt-0 mb-12"> <!--min-h-screen-->
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 basis-full">
+            <div class="flex justify-center mt-8 sm:mt-16">
+                <!-- desktop -->
+                <div class="hidden sm:flex">
+                    <img src="./macropru_files/connect_lets_connect_xl.png" class="h-full">
+                </div>
+                <!-- mobile -->
+                <div class="flex sm:hidden justify-center">
+                    <img src="./macropru_files/connect_lets_connect_s.png" class="h-full">
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 mt-24 mx-8 sm:mt-40 gap-x-2 gap-y-4">
+                <div>
+                    <div class="text-left sm:text-right pr-24">
+                        <span class="text-lg font-marcellus">Jagoda Kaszowska-Mojsa</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 max-w-sm">
+                    <div class="font-andada pb-4 sm:pb-6">
+                        <p class="text-sm font-extrabold mb-2 text-contact-header-gray">Email</p>
+                        <p class="text-sm text-contact-text-gray">Oxford: jagoda.kaszowska-mojsa@maths.ox.ac.uk</p>
+                        <p class="text-sm text-contact-text-gray">INE PAN: jagoda.kaszowska@inepan.waw.pl</p>
+                        <p class="text-sm text-contact-text-gray">UEK: kaszowsj@uek.krakow.pl</p>
+                        <hr class="max-w-xs border-contact-separator-gray mt-4">
+                    </div>
+
+                    <div class="font-andada pb-4 sm:pb-6">
+                        <p class="text-sm font-extrabold mb-2 text-contact-header-gray">ORCID number</p>
+                        <p class="text-sm text-contact-text-gray">0000-0001-6261-5084</p>
+                        <hr class="max-w-xs border-contact-separator-gray mt-4">
+                    </div>
+
+                    <div class="font-andada pb-4 sm:pb-6">
+                        <p class="text-sm font-extrabold mb-2 text-contact-header-gray">Address</p>
+                        <p class="text-sm text-contact-text-gray">Manor Road Building, Manor Road, OX1 3UQ Oxford UK</p>
+                        <hr class="max-w-xs border-contact-separator-gray mt-4">
+                    </div>
+
+                    <div class="font-andada pb-4 sm:pb-6">
+                        <p class="text-sm font-extrabold mb-2 text-contact-header-gray">Personal social media</p>
+                        <div class="flex flex-wrap gap-4">
+                            <a class="p-2 pr-8 text-xs text-white" style="background: #657297 url(&#39;/images/arrow-right-circle.png&#39;) no-repeat 90% 50%;" href="https://www.facebook.com/jagoda.kaszowska/" target="_blank">Facebook</a>
+                            <a class="p-2 pr-8 text-xs text-white" style="background: #657297 url(&#39;/images/arrow-right-circle.png&#39;) no-repeat 90% 50%;" href="https://www.linkedin.com/in/jagoda-kaszowska-mojsa-76a01265/" target="_blank">LinkedIn</a>
+                            <a class="p-2 pr-8 text-xs text-white" style="background: #657297 url(&#39;/images/arrow-right-circle.png&#39;) no-repeat 90% 50%;" href="https://twitter.com/j_kaszowska" target="_blank">Twitter</a>
+                            <a class="p-2 pr-8 text-xs text-white" style="background: #657297 url(&#39;/images/arrow-right-circle.png&#39;) no-repeat 90% 50%;" href="https://www.researchgate.net/profile/Jagoda-Kaszowska-2" target="_blank">Research Gate</a>
+                            <a class="p-2 pr-8 text-xs text-white" style="background: #657297 url(&#39;/images/arrow-right-circle.png&#39;) no-repeat 90% 50%;" href="https://scholar.google.com/citations?user=KH7veEIAAAAJ&amp;hl=en" target="_blank">Google Scholar</a>
+                            <a class="p-2 pr-8 text-xs text-white" style="background: #657297 url(&#39;/images/arrow-right-circle.png&#39;) no-repeat 90% 50%;" href="https://www.instagram.com/monetaristinheels/?hl=pl" target="_blank">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 mt-16 mx-8 gap-x-2 gap-y-4">
+                <div>
+                    <div class="text-left sm:text-right pr-24">
+                        <span class="text-lg font-marcellus">Macropru project info</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 max-w-sm">
+                    <div class="font-andada pb-4 sm:pb-6">
+                        <p class="text-sm font-extrabold mb-2 text-contact-header-gray">Project social media</p>
+                        <div class="flex flex-wrap gap-4">
+                            <a class="p-2 pr-8 text-xs text-white" style="background: #657297 url(&#39;/images/arrow-right-circle.png&#39;) no-repeat 90% 50%;" href="https://www.facebook.com/monetaristinheels" target="_blank">Facebook</a>
+                            <a class="p-2 pr-8 text-xs text-white" style="background: #657297 url(&#39;/images/arrow-right-circle.png&#39;) no-repeat 90% 50%;" href="https://www.linkedin.com/company/macropru/about/?viewAsMember=true" target="_blank">LinkedIn</a>
+                            <a class="p-2 pr-8 text-xs text-white" style="background: #657297 url(&#39;/images/arrow-right-circle.png&#39;) no-repeat 90% 50%;" href="https://youtube.com/" target="_blank">Youtube</a>
+                            <a class="p-2 pr-8 text-xs text-white" style="background: #657297 url(&#39;/images/arrow-right-circle.png&#39;) no-repeat 90% 50%;" href="https://cordis.europa.eu/project/id/101023445" target="_blank">Cordis</a>
+                            <a class="p-2 pr-8 text-xs text-white" style="background: #657297 url(&#39;/images/arrow-right-circle.png&#39;) no-repeat 90% 50%;" href="https://www.inet.ox.ac.uk/people/jagoda-kaszowska-mojsa/" target="_blank">INET Oxford</a>
+                            <a class="p-2 pr-8 text-xs text-white" style="background: #657297 url(&#39;/images/arrow-right-circle.png&#39;) no-repeat 90% 50%;" href="https://twitter.com/inet_complexity?lang=en" target="_blank">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 mt-16 mx-8 gap-x-2 gap-y-4">
+                <div>
+                    <div class="text-left sm:text-right pr-24">
+                        <span class="text-lg font-marcellus">Affiliations</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 max-w-sm">
+                    <div class="font-andada pb-4 sm:pb-6">
+                        <p class="text-sm font-extrabold mb-2 text-contact-header-gray">Marie Skłodowska-Curie Research Fellow</p>
+                        <p class="text-sm text-contact-text-gray">University of Oxford (Mathematical Institute &amp; Institute for New Economic Thinking at the Oxford Martin School</p>
+                        <p class="text-xs underline text-contact-text-gray"><a href="https://www.inet.ox.ac.uk/" target="_blank">https://www.inet.ox.ac.uk/</a></p>
+                        <hr class="max-w-xs border-contact-separator-gray mt-4">
+                    </div>
+                    <div class="font-andada pb-4 sm:pb-6">
+                        <p class="text-sm font-extrabold mb-2 text-contact-header-gray">Assistant Professor</p>
+                        <p class="text-sm text-contact-text-gray">Institute of Economics Polish Academy of Sciences</p>
+                        <p class="text-xs underline text-contact-text-gray"><a href="https://inepan.pl/" target="_blank">https://inepan.pl/</a></p>
+                        <hr class="max-w-xs border-contact-separator-gray mt-4">
+                    </div>
+                    <div class="font-andada pb-4 sm:pb-6">
+                        <p class="text-sm font-extrabold mb-2 text-contact-header-gray">Lecturer</p>
+                        <p class="text-sm text-contact-text-gray">Cracow University of Economics</p>
+                        <p class="text-xs underline text-contact-text-gray"><a href="https://uek.krakow.pl/en/" target="_blank">https://uek.krakow.pl/en/ </a></p>
+                        <hr class="max-w-xs border-contact-separator-gray mt-4">
+                    </div>
+                    <div class="font-andada pb-4 sm:pb-6">
+                        <p class="text-sm font-extrabold mb-2 text-contact-header-gray">Senior Economist</p>
+                        <p class="text-sm text-contact-text-gray">National Bank of Poland</p>
+                        <p class="text-xs underline text-contact-text-gray"><a href="https://www.nbp.pl/" target="_blank">https://www.nbp.pl/</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+            </main>
+
+            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 pb-8">
+                <hr class="mx-8 my-16 border-black">
+
+                <div class="flex flex-col sm:flex-row space-y-8 sm:space-y-0 xl:space-y-2 sm:space-x-16 px-8 sm:px-32">
+                    <div class="w-28 flex-none">
+                        <img src="./macropru_files/eu_emblem.png" class="">
+                    </div>
+                    <div class="font-andada text-xs sm:text-base text-justify xl:pr-12">
+                        The MACROPRU project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 101023445.
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+</body></html>

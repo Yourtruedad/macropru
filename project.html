@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)/project.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="I5Yiwfup0PkfZY6cMvZNUftSER3jY6655O3JnbEg">
+
+        <title>Laravel</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com/"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""> 
+        <link href="./macropru_files/css2" rel="stylesheet">
+
+        <!-- Styles -->
+            <link rel="stylesheet" href="./macropru_files/tw-elements.min.css">
+    <style>   
+        .small-list-disc li:before {
+            content:"· ";
+            font-size:24px;
+            vertical-align:middle;
+            line-height:20px;
+        }
+    </style>
+        <link rel="stylesheet" href="./macropru_files/app.css">
+        
+
+        <!-- Scripts -->
+        <script src="./macropru_files/app.js" defer=""></script>
+    </head>
+    <body class="font-sans antialiased">
+        <div class="min-h-screen bg-home-white     bg-[url(&#39;./macropru_files/project_hero_s.png&#39;)] sm:bg-[url(&#39;./macropru_files/project_hero.png&#39;)] bg-no-repeat bg-contain sm:bg-auto bg-right-top md:bg-top
+">
+            <nav x-data="{ open: false }" class="">
+    <!-- Primary Navigation Menu -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between sm:justify-around h-16 sm:h-32">
+            <div class="hidden sm:flex"></div>
+            <div class="hidden sm:flex"></div>
+            <div class="hidden sm:flex">
+                <div class="hidden space-x-1 sm:-my-px sm:flex uppercase">
+                    <div class="flex items-center">
+                        <a class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-lg font-marcellus font-normal leading-5 text-nav-link-dark hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out border-gray-500 hover:border-gray-700" href="/project.html">
+                            About project
+                        </a>
+                    </div>
+
+                    <!--<a class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out" href="/contact.html">
+    Contact
+</a>
+-->
+                </div>
+            </div>
+            <div class="hidden sm:flex">
+                <div class="hidden space-x-1 sm:-my-px sm:flex uppercase">
+                    <div class="flex items-center">
+                        <a class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-lg font-marcellus font-normal leading-5 text-nav-link-dark hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out " href="http://localhost/blog">
+                            Blog
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+                <!-- Logo -->
+                <div class="shrink-0 flex items-center mx-2">
+                    <a href="/">
+                        <img src="./macropru_files/logo.png" class="h-12 sm:h-full">
+                    </a>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="hidden space-x-8 sm:-my-px sm:flex uppercase">
+                    <div class="flex items-center">
+                        <a class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-lg font-marcellus font-normal leading-5 text-nav-link-dark hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out " href="http://localhost/about">
+                            About me
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="hidden space-x-8 sm:-my-px sm:flex uppercase">
+                    <div class="flex items-center">
+                        <a class="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-lg font-marcellus font-normal leading-5 text-nav-link-dark hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out " href="/contact.html">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex"></div>
+            <div class="flex"></div>
+            <!-- Hamburger -->
+            <div class="-mr-2 flex items-center sm:hidden">
+                <button @click="open = ! open" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                    <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                        <path :class="{&#39;hidden&#39;: open, &#39;inline-flex&#39;: ! open }" class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        <path :class="{&#39;hidden&#39;: ! open, &#39;inline-flex&#39;: open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Responsive Navigation Menu -->
+    <div :class="{&#39;block&#39;: open, &#39;hidden&#39;: ! open}" class="hidden sm:hidden">
+        <div class="pt-2 pb-3 space-y-1">
+            <a class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 uppercase font-marcellus hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:border-gray-300 transition duration-150 ease-in-out bg-gray-100 border-gray-500 hover:bg-gray-200 hover:border-gray-600" href="/project.html">
+                About project
+            </a>
+        </div>
+        <div class="pt-2 pb-3 space-y-1">
+            <a class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 uppercase font-marcellus hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:border-gray-300 transition duration-150 ease-in-out " href="http://localhost/blog">
+                Blog
+            </a>
+        </div>
+        <div class="pt-2 pb-3 space-y-1">
+            <a class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 uppercase font-marcellus hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:border-gray-300 transition duration-150 ease-in-out " href="http://localhost/about">
+                About me
+            </a>
+        </div>
+        <div class="pt-2 pb-3 space-y-1">
+            <a class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600 uppercase font-marcellus hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:border-gray-300 transition duration-150 ease-in-out " href="/contact.html">
+                Contact
+            </a>
+        </div>
+        <hr class="drop-shadow">
+    </div>
+</nav>
+
+            <!-- Page Heading -->
+            <!--<header class="">
+                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                    Header
+                </div>
+            </header>-->
+
+            <!-- Page Content -->
+            <main>
+                    <div class="relative py-4 sm:pt-0 mb-12"> <!--min-h-screen-->
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 basis-full">
+            <div class="flex justify-center mt-24 sm:mt-32">
+                <img src="./macropru_files/project_macropru_project.svg" class="w-8/12 sm:max-h-64">
+            </div>
+
+            <div class="grid justify-evenly grid-cols-1 md:grid-cols-4 gap-x-8 gap-y-4 mt-24 sm:mt-48 mx-8 sm:mx-8 mb-16 p-4 sm:p-20 bg-white drop-shadow-3xl rounded">
+                <div>
+                    <p class="text-4xl text-[32px] font-marcellus font-normal mb-2 text-contact-header-gray">Basic info</p>
+                </div>
+                <div>
+                    <p class="text-base font-bold font-roboto contact-header-gray">Acronym</p>
+                    <p class="text-xs font-normal font-roboto contact-text-gray mt-2">MACROPRU</p>
+                    <p class="text-base font-bold font-roboto contact-header-gray mt-12">Type of project</p>
+                    <p class="text-xs font-normal font-roboto contact-text-gray mt-2 underline">Marie Skłodowska Curie Standard European Individual Fellowship</p>
+                </div>
+                <div>
+                    <p class="text-base font-bold font-roboto contact-header-gray">Grant agreement</p>
+                    <p class="text-xs font-normal font-roboto contact-text-gray mt-2">Grant Agreement no. 101023445</p>
+                    <p class="text-base font-bold font-roboto contact-header-gray mt-12">Start and duration</p>
+                    <p class="text-xs font-normal font-roboto contact-text-gray mt-2">Start: 1.10.2021</p>
+                    <p class="text-xs font-normal font-roboto contact-text-gray">Duration: 24 months</p>
+                </div>
+                <div>
+                    <p class="text-base font-bold font-roboto contact-header-gray">Maximum amount</p>
+                    <p class="text-xs font-normal font-roboto contact-text-gray mt-2">EUR 224 933.76</p>
+                    <p class="text-base font-bold font-roboto contact-header-gray mt-12">Title</p>
+                    <p class="text-xs font-normal font-roboto contact-text-gray mt-2">Investigating new policies for financial stability that do not create inequality</p>
+                </div>
+            </div>
+
+            <!-- Beneficiary -->
+            <div class="flex flex-col md:flex-row gap-x-8 mx-8">
+                <div class="md:pl-20 basis-1/4 md:basis-60 lg:basis-72 shrink-0">
+                    <p class="text-4xl text-[32px] font-marcellus font-normal mb-2 text-contact-header-gray">Beneficiary</p>
+                </div>
+                <div class="md:px-4 md:pr-20 basis-3/4 font-andada text-xs contact-text-gray leading-[1.125rem]">
+                    <p>The Chancellor, Masters and Scholars of the University of Oxford (UOXF)</p>
+                    <p>Mathematical Institute, University of Oxford</p>
+                    <p class="underline"><a href="https://www.maths.ox.ac.uk/" target="_blank">https://www.maths.ox.ac.uk/</a></p>
+
+                    <p class="mt-4">Institute for New Economic Thinking at Oxford Martin School, University of Oxford</p>
+                    <p class="underline"><a href="https://www.inet.ox.ac.uk/" target="_blank">https://www.inet.ox.ac.uk/</a></p>
+                </div>
+            </div>
+
+            <!-- Supervisor -->
+            <div class="flex flex-col md:flex-row gap-x-8 mx-8 mt-16">
+                <div class="md:pl-20 basis-1/4 md:basis-60 lg:basis-72 shrink-0">
+                    <p class="text-4xl text-[32px] font-marcellus font-normal mb-2 text-contact-header-gray">Supervisor</p>
+                </div>
+                <div class="md:px-4 md:pr-20 basis-3/4 font-andada text-xs contact-text-gray leading-[1.125rem]">
+                    <p class="text-justify"><span class="font-bold">J. Doyne Farmer</span> is a Professor of Mathematics at the Mathematical Institute (University of Oxford) and he is the Director of Complexity Economics at the Institute for New Economic Thinking at the Oxford Martin School. In the Mathematical Institute, he is involved in Mathematical and Computational Finance Group (one of the world’s leading research groups in the area of mathematical modelling in finance) and the Mathematical Data Science Group (a founding mathematical partner of the Alan Turing Institute and the UK’s national data science institute). Prof. Farmer has led projects on systemic risk and financial instability, which have been funded by inter alia the National Science Foundation (USA), the Institute for New Economic Thinking (USA), the Alfred P. Sloan Foundation (USA), the European Commission (FP7 project CRISIS) and Amlin Insurance (UK). He has been a consultant to the European Central Bank, Innovative Finance Policy Advisory Board and Chairman of the Board of Directors, Scientific Investment. He was an Oppenheimer Fellow and the founder of the Complex Systems Group at Los Alamos National Laboratory. He has published 250 papers that have more than 40 225 citations (H-index: 80).</p>
+
+                    <p class="underline mt-4 break-words"><a href="https://www.oxfordmartin.ox.ac.uk/people/doyne-farmer/" target="_blank">https://www.oxfordmartin.ox.ac.uk/people/doyne-farmer/</a></p>
+                </div>
+            </div>
+
+            <!-- A summary of the action -->
+            <div class="flex flex-col md:flex-row gap-x-8 mx-8 mt-16">
+                <div class="md:pl-20 basis-1/4 md:basis-60 lg:basis-72 shrink-0">
+                    <p class="text-4xl text-[32px] font-marcellus font-normal mb-2 text-contact-header-gray">A summary of the action</p>
+                </div>
+                <div class="md:px-4 md:pr-20 basis-3/4 font-andada text-xs contact-text-gray leading-[1.125rem]">
+                    <p class="text-justify">The primary aim of the action is to investigate how new macroprudential policies can influence financial stability without contributing to the inequality in a society. In this project, we will apply cutting-edge, agent-based simulation techniques to uncover the redistributive effects of macroprudential policies and to examine the optimal combinations of the macroprudential tools from the social welfare perspective. The results of this project will complement the conclusions that have been extracted from the ECB system-wide stress-testing exercises by providing data on the rise of inequality in EU countries due to the adoption of new financial regulations. It will also supplement the macroeconomic impact assessment for the Basel III reforms (cost-benefit “Growth-at-Risk” approach).</p>
+                    <p class="text-justify mt-4">This project will also expand our knowledge about an innovative tool, namely, agent-based modelling, which can be used in financial oversight. It will provide us with the practical knowledge of how to take the heterogeneity of the agents in the models into account and how to apply the new Bayesian estimation techniques. The results of the project could guide policymakers and central bankers on how to reshape financial regulations and to calibrate macroprudential policies in order to minimise adverse social effects and to reduce inequality (by supporting a social policy). The project is consistent with the European Commission’s support on research programmes on the public sector and social innovation that is described in the Europe 2020 Flagship Initiative Innovation Union.</p>
+                    <p class="text-justify mt-4">The researcher will be fully integrated into Prof. J. Doyne Farmer’s Complexity Economics team at the INET Oxford and at the Mathematical Institute of the University of Oxford. The fellowship will give the applicant the opportunity to perform relevant and state-of-the art research in the best institute of complexity economics in the world, to strengthen her position as an independent research group leader and to initiate new long-term collaborations.</p>
+                    <p class="underline mt-4 break-words"><a href="https://www.inet.ox.ac.uk/research/programmes/complexity-economics/" target="_blank">https://www.inet.ox.ac.uk/research/programmes/complexity-economics/</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto basis-full bg-project-background-blue mt-24">
+            <div class="flex flex-col lg:flex-row gap-x-8 mt-16">
+                <div class="basis-3/5 order-2 lg:order-1">
+                    <div class="accordion my-16 mx-8 lg:mr-0 lg:ml-16" id="accordionExample">
+                        <div class="accordion-item bg-white drop-shadow-3xl rounded py-2 px-1 sm:px-8">
+                            <h2 class="accordion-header mb-0" id="headingOne">
+                            <button class="
+                                accordion-button
+                                relative
+                                flex
+                                items-center
+                                w-full
+                                py-4
+                                px-5
+                                text-base contact-header-gray text-left font-marcellus
+                                bg-white
+                                border-0
+                                rounded-none
+                                transition
+                                focus:outline-none
+                            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <p class="pr-8 sm:pr-24">An Overview of the results towards the objectives of the action, including milestones and deliverables</p>
+                            </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body py-4 px-5 font-andada text-xs">
+                                <p class="font-bold">The objectives of the action:</p> 
+                                <ol class="list-decimal list-inside mt-4">
+                                    <li>The first objective will be to study the mechanisms through which macroprudential policies could affect the level of inequality and generate welfare costs.</li>
+                                    <li>The second objective will be to examine the optimal combinations of the macroprudential tools from the social welfare perspective.</li>
+                                    <li>The third objective will be to construct and  analyse a new agent-based model that can uncover the redistributive effects of macroprudential policies.</li>
+                                </ol>
+
+                                <p class="font-bold mt-4">The project will be implemented in five work packages (WPs) and five milestones (Ms). The following strategy has been adopted to achieve the research goals:</p>
+                                <ol class="list-decimal list-inside mt-4">
+                                    <li>(WP3) First, the theoretical research on the mechanisms through which different macroprudential instruments affect income and wealth distributions will be conducted.</li>
+                                    <li>(WP4) Second, econometric analyses will be performed to identify the channels through which different macroprudential instruments affect the level of inequality in selected EU countries (the econometric methods address concerns about endogeneity and reverse causality). These channels were included in the MACROPRU model.</li>
+                                    <li>(WP5) Third, using the agent-based MACROPRU simulation, the redistributive effects of macroprudential policies in the predefined scenarios will be tested. </li>
+                                </ol>
+
+                                <p class="font-bold mt-4">The tasks that were crucial in developing the agent-based simulation and for completing the project:</p>
+                                <ol class="list-none small-list-disc list-inside mt-4">
+                                    <li>Researching the mathematical foundations of an agent-based model (dynamical systems and networks) (WP3)</li>
+                                    <li>Conducting statistical and econometric analyses on the microdata (WP2)</li>
+                                    <li>Creating one, consistent database in PostGreSQL (WP2, M2.1) </li>
+                                    <li>Constructing an agent-based simulation (algorithms) and connecting it to the database (WP5, M5.1)</li>
+                                    <li>Developing counterfactual scenarios of the impact of a set of macroprudential instruments on the system (WP5)</li>
+                                    <li>Calibrating and estimating the model (WP2)</li>
+                                    <li>Performing simulations and interpreting the output data for each scenario (WP2)</li>
+                                    <li>Quantifying the uncertainty of the results (WP2, M2.2)</li>
+                                    <li>Validating, verifying and testing the model (WP5, M5.2)</li>
+                                </ol>
+
+                                <p class="font-bold mt-4">The five deliverables can be downloaded below:</p>
+                                <div class="flex flex-wrap gap-4 mt-4">
+                                    <a class="p-2 px-5 text-xs text-white bg-[#657297]" href="http://localhost/" target="_blank">D1.1</a>
+                                    <a class="p-2 px-5 text-xs text-white bg-[#657297]" href="http://localhost/" target="_blank">D1.2</a>
+                                    <a class="p-2 px-5 text-xs text-white bg-[#657297]" href="http://localhost/" target="_blank">D3.1</a>
+                                    <a class="p-2 px-5 text-xs text-white bg-[#657297]" href="http://localhost/" target="_blank">D4.1</a>
+                                    <a class="p-2 px-5 text-xs text-white bg-[#657297]" href="http://localhost/" target="_blank">D5.1</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-white drop-shadow-3xl rounded py-2 px-1 sm:px-8 mt-4">
+                            <h2 class="accordion-header mb-0" id="headingTwo">
+                            <button class="
+                                accordion-button
+                                collapsed
+                                relative
+                                flex
+                                items-center
+                                w-full
+                                py-4
+                                px-5
+                                text-base contact-header-gray text-left font-marcellus
+                                bg-white
+                                border-0
+                                rounded-none
+                                transition
+                                focus:outline-none
+                            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <p class="pr-8 sm:pr-24">Training &amp; Two-way transfer of knowledge between the researcher and the host</p>
+                            </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body py-4 px-5 font-andada text-xs">
+                                <p class="text-justify">One of the most important aims of the MSCA fellowship is to ensure the two-way transfer of knowledge between the researcher and the host and to provide highly relevant trainings to the researcher. The MSCA fellow has been integrated in the Complexity Economics Group at the INET Oxford. Her participation in group meetings will enable her to improve her knowledge and skills. The researcher's contribution to the creation of the agent-based macro models and macroprudential policies was also important for the group's research. The Fellowship will also be a remarkable opportunity for her to develop excellent international networking opportunities and to improve her career development possibilities.  The training will be focused on improving the fellow’s research, management and communication skills. For more info see the CV in the section <span class="italic">About me</span>.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-white drop-shadow-3xl rounded py-2 px-1 sm:px-8 mt-4">
+                            <h2 class="accordion-header mb-0" id="headingThree">
+                            <button class="
+                                accordion-button
+                                collapsed
+                                relative
+                                flex
+                                items-center
+                                w-full
+                                py-4
+                                px-5
+                                text-base contact-header-gray text-left font-marcellus
+                                bg-white
+                                border-0
+                                rounded-none
+                                transition
+                                focus:outline-none
+                            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <p class="pr-8 sm:pr-24">The exploitation and dissemination of results</p>
+                            </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body py-4 px-5 font-andada text-xs">
+                                <p class="font-bold">The exploitation of results</p>
+                                <p class="mt-4 text-justify">The results of these actions will be exploited by maintaining the collaboration with the University of Oxford and initiating new, interdisciplinary projects in Poland, thereby starting to build up a complexity community in Poland that will become an important part of the scientific landscape.</p>
+                                <p class="mt-4 text-justify">The details of the algorithms, as well as the results of the simulations, will be deposited in the “CoMSeS, Open ABM, Big Data Hub” (open access). This will provide a valuable platform for new research projects to be developed after the completion of the project. Researchers will be able to use this information as a foundation to create future work in these areas.</p>
+                                <p class="mt-4 text-justify">Any intellectual property arising from the project will be handled by the Oxford Intellectual Property Research Centre, which will advise on the best practices and opportunities for exploitation. The applicant will comply with the employment conditions in relation to confidentiality, knowledge and intellectual property rights.</p>
+                                <p class="font-bold mt-4">Dissemination of the results</p>
+                                <p class="mt-4 text-justify">The general policy at the University of Oxford is to promote “new economic thinking” and free access to knowledge and groundbreaking scientific research, either by making new techniques available or by assuring open access to all publications. Therefore, in order to communicate the research results, the fellow will either publish papers in open access scientific journals or place them on preprint servers (such as arxiv) in order to maximise their availability. The simulation results will be available for download on the INET Oxford webpage. In order to share the project’s results with the research community, the applicant will present her findings at international conferences, which will increase their public visibility. A series of short visits will be undertaken to give seminar talks and to build collaborations with risk and complexity science research groups around the world. For more info, see the <span class="italic">Blog</span> and <span class="italic">About me</span> (CV).</p>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item bg-white drop-shadow-3xl rounded py-2 px-1 sm:px-8 mt-4">
+                            <h2 class="accordion-header mb-0" id="headingThree">
+                            <button class="
+                                accordion-button
+                                collapsed
+                                relative
+                                flex
+                                items-center
+                                w-full
+                                py-4
+                                px-5
+                                text-base contact-header-gray text-left font-marcellus
+                                bg-white
+                                border-0
+                                rounded-none
+                                transition
+                                focus:outline-none
+                            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <p class="pr-8 sm:pr-24">The communication activities</p>
+                            </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body py-4 px-5 font-andada text-xs">
+                                <p class="text-justify">The fellow will engage the general public using mass and social media.  For this purpose, she has developed a strategy based on building a project website “Monetarist in Heels”, which contains links to YouTube videos and posts on Facebook, LinkedIn and ResearchGate.  The distribution of information about the project was started by advertising it through people who are potentially interested in the subject (on Facebook and LinkedIn). While Facebook and YouTube will permit the project activities to be communicated to a younger audience, the use of LinkedIn will draw the attention of the multipliers among professionals and members of the EU financial oversight institutions.</p>
+                                <p class="mt-4 text-justify">Articles were also published in the press.  In addition, the fellow participated in the European Researchers’ Night, where she explained the results of her project to the public so that non-specialists can understand it.  She also became involved in the Oxford outreach activities (Mathematical Institute and INET webpages, OxfordSparks, Instagram, Twitter).</p>
+                                <p class="mt-4 text-justify">The public engagement activities will contribute to creating an awareness of the performed research by informing and inspiring the public, by listening to public views and by collaborating with the public.  The goals of ‘The University of Oxford Public Engagement with Research Strategic Plan’ will be followed to ensure a highest impact.</p>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item bg-white drop-shadow-3xl rounded py-2 px-1 sm:px-8 mt-4">
+                            <h2 class="accordion-header mb-0" id="headingThree">
+                            <button class="
+                                accordion-button
+                                collapsed
+                                relative
+                                flex
+                                items-center
+                                w-full
+                                py-4
+                                px-5
+                                text-base contact-header-gray text-left font-marcellus
+                                bg-white
+                                border-0
+                                rounded-none
+                                transition
+                                focus:outline-none
+                            " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <p class="pr-8 sm:pr-24">The economic and societal impact of the action</p>
+                            </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body py-4 px-5 font-andada text-xs">
+                                <p class="text-justify">The research within the MACROPRU project will make a demonstrable contribution to society and the economy. This will include both an academic impact and an economic and societal impact. The published research results will enhance the understanding and advanced scientific methods (in particular agent-based modelling), economic theory and its application across and within disciplines. In addition, the research will have an impact on society and the economy, and it will also benefit individuals, organisations (central banks and financial oversight institutions) and nations. It will show us how we should calibrate macroprudential policies in order to support social policy and thus to create a more equal society.</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="basis-2/5 order-1 lg:order-2 flex justify-center lg:justify-end items-center">
+                    <div class="shrink pt-16 lg:pt-0 mx-16 lg:mx-0">
+                        <img src="./macropru_files/project_macropru.png" class="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 basis-full mt-20">
+            <!-- Ethics & Research Integrity -->
+            <div class="flex flex-col md:flex-row gap-x-8 mx-8">
+                <div class="md:pl-20 basis-1/4 md:basis-64 lg:basis-72 shrink-0">
+                    <p class="text-4xl text-[32px] font-marcellus font-normal mb-2 text-contact-header-gray mb-4">Ethics &amp; Research Integrity</p>
+                </div>
+                <div class="md:px-4 md:pr-20 basis-3/4 font-andada text-base contact-text-gray leading-[1.125rem]">
+                    <p>The University of Oxford will conduct the action in compliance with: </p>
+                    <ol class="list-none small-list-disc list-inside mt-1">
+                        <li>ethical principles (including the highest standards of research integrity)</li>
+                        <li>applicable international, EU and national law.</li>
+                    </ol>
+                    <p class="mt-4">
+                        In addition, the beneficiary will respect the fundamental principles of research integrity as set out, for instance, in the European Code of Conduct for Research. This implies compliance with the following fundamental principles:
+                    </p>
+                    <ol class="list-none small-list-disc list-inside mt-1">
+                        <li>reliability in ensuring the quality of research, which will be reflected in the design, the methodology, the analysis and the use of resources;</li>
+                        <li>honesty in developing, undertaking, reviewing, reporting and communicating research in a transparent, fair and unbiased way;</li>
+                        <li>respect for colleagues, research participants, society, ecosystems, cultural heritage and the environment;</li>
+                        <li>accountability for the research from conception to publication, for its management and organisation, for training, supervision and mentoring and for its wider impacts</li>
+                        <li>and means that the beneficiary must ensure that the individuals that will conduct the research tasks will follow good research practices and refrain from any of the research integrity violations that are described in this Code.</li>
+                    </ol>
+                    <p class="mt-1">This does not change the other obligations under the Grant Agreement or obligations under applicable international, EU or national law, all of which will still applied. The MACROPRU project underwent an ethical review. The researcher took part in a number of trainings on ethics and research integrity at the University of Oxford.</p>
+                </div>
+            </div>
+            
+            <!-- Originality and innovative aspects of the research programme -->
+            <div class="flex flex-col md:flex-row gap-x-8 mx-8 mt-16 p-4 sm:px-0 py-16 bg-white drop-shadow-3xl rounded">
+        
+                <div class="md:pl-20 basis-1/4 md:basis-64 lg:basis-72 shrink-0">
+                    <p class="text-4xl text-[32px] font-marcellus font-normal mb-2 text-contact-header-gray mb-4">Originality and innovative aspects of the research programme</p>
+                </div>
+                <div class="md:px-4 md:pr-20 basis-3/4 text-base font-andada contact-header-gray">
+                    <p>There are clear scientific, methodological and socio-economic reasons for conducting the MACROPRU project. It is consistent with the attempts to underpin a social market economy within the “Europe 2020” Strategy, as well as with the European Commission’s support on research programmes on the public sector and social innovation.</p>
+                    <p class="mt-4">The results of the project might guide policy makers and central bankers on how to reshape financial regulations and calibrate macroprudential policies in order to minimise the adverse social effects and to reduce inequality (by supporting social policy). The project will expand our scientific knowledge about a new innovative tool that can be used in financial stability oversight, namely agent-based modelling.</p>
+                </div>
+            </div>
+
+            <!-- Gender equality -->
+            <div class="flex flex-col md:flex-row gap-x-8 mx-8 mt-16">
+                <div class="md:pl-20 basis-1/4 md:basis-64 lg:basis-72 shrink-0">
+                    <p class="text-4xl text-[32px] font-marcellus font-normal mb-2 text-contact-header-gray mb-4">Gender equality</p>
+                </div>
+                <div class="md:px-4 md:pr-20 basis-3/4 text-base font-andada contact-header-gray">
+                    <p>The University of Oxford will take all measures to promote equal opportunities between men and women in the implementation of the action. It will aim, to the extent possible, for a gender balance at all levels of the personnel who are assigned to the action, including at the supervisory and managerial levels.</p>
+                    <p class="mt-1">The host has strongly supported the career development of the MSCA fellow after her maternity leave.</p>
+                    <p class="mt-1">The subject of the project also relates to the issue of gender equality. Examining the role of prudential policies requires an interdisciplinary approach to fully understand what effects they have on different social groups or whether gender inequalities occur.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+            </main>
+
+            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 pb-8">
+                <hr class="mx-8 my-16 border-black">
+
+                <div class="flex flex-col sm:flex-row space-y-8 sm:space-y-0 xl:space-y-2 sm:space-x-16 px-8 sm:px-32">
+                    <div class="w-28 flex-none">
+                        <img src="./macropru_files/eu_emblem.png" class="">
+                    </div>
+                    <div class="font-andada text-xs sm:text-base text-justify xl:pr-12">
+                        The MACROPRU project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 101023445.
+                    </div>
+                </div>
+            </div>
+        </div>
+            <script src="./macropru_files/index.min.js"></script>
+    
+
+</body></html>
